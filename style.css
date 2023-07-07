@@ -1,7 +1,6 @@
 html {
 	scroll-behavior: smooth;
-	background-color: antiquewhite;
-	background-image: url("check mark2.png");
+	background: url(check_mark2.png), linear-gradient(0deg, rgba(253,255,227,1) 0%, rgb(192, 240, 174) 100%);
 	background-attachment: fixed;
 	background-size: 150px;
 }
@@ -11,10 +10,6 @@ body {
 	text-align: center;
 }
 header {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -44,65 +39,45 @@ ul {
 	border: 3px solid black;
 	border-radius: 15px;
 	font-size: 2em;
+	box-shadow: 0 0 10px 5px rgb(186, 186, 186);
 }
-.contacts {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
+.nav__bottom span {
+	color: black;
+	text-shadow: 3px 5px 6px rgb(84, 84, 84);
 }
-.skill {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
+h1 {
+	text-shadow: 0 9px 9px rgb(229, 229, 229);
 }
-.biography {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
-}
-.code {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
+h2 {
+	text-shadow: 0 5px 6px rgb(221, 221, 221);
 }
 pre {
 	width: 300px;
 	margin: 0px 0px 0px 150px;
 	text-align: left;
 }
-.project {
-	background-color: #9a9a92;
-	margin: 5px;
+
+.header,
+.contacts,
+.skill,
+.biography,
+.code,
+.project,
+.education,
+.course,
+.language,
+.footer {
+	margin: 10px;
 	padding: 10px;
-	border-radius: 5px;
-}
-.education {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
-}
-.course {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
-}
-.language {
-	background-color: #9a9a92;
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
+	background: url(check_mark3.png) #9d9d95;
+	/*прозрачный фон стенями очень эффектно выглядит*/
+	/* background-color: rgba(253,255,227,0); */
+	background-size: 50px;
+	border-radius: 10px;
+	box-shadow: 0 10px 55px rgb(0 0 0);
 }
 .footer {
-	background-color: #9a9a92;
-	margin: 5px;
 	padding: 10px 50px;
-	border-radius: 5px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
