@@ -1,0 +1,109 @@
+html {
+	scroll-behavior: smooth;
+	background-color: antiquewhite;
+	background-image: url("check mark2.png");
+	background-attachment: fixed;
+	background-size: 150px;
+}
+body {
+	width: 800px;
+	margin: 30px auto;
+	text-align: center;
+}
+header {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.preview__image {
+	width: 300px;
+	border-radius: 20px;
+}
+ul {
+	padding-inline-start: 0px; /*уберает отступ списка*/
+	list-style-type: none; /*уберает точку списка*/
+}
+.nav {
+	width: 300px;
+	text-align: center;
+}
+.nav__list {
+	height: 250px;
+	padding: 0px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.nav__bottom {
+	text-decoration: none;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 15px;
+	font-size: 2em;
+}
+.contacts {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.skill {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.biography {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.code {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+pre {
+	width: 300px;
+	margin: 0px 0px 0px 150px;
+	text-align: left;
+}
+.project {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.education {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.course {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.language {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.footer {
+	background-color: #9a9a92;
+	margin: 5px;
+	padding: 10px 50px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
